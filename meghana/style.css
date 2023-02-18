@@ -1,0 +1,185 @@
+*{
+    margin:0;
+    padding:0;
+    }
+    a{
+    margin:0;
+    text-decoration:none;
+    
+    font-size:16px;
+    font-family:arial;
+    
+    
+    }
+    .container a{
+    text-decoration:none;
+    }
+    
+    header{
+    margin-top:5px;
+    background:salmon;
+    
+    }
+    .nav-bar ul {
+     align-items:center;
+    text-align:center;
+    
+       list-style: none;
+    height:7%;
+    }
+    .nav-bar ul li {
+    display:inline-block;
+    text-decoration:none;
+      padding: 10px 100px 10px 50px;
+    
+    }
+    .nav-bar li{
+    left-margin:5px;
+    
+    
+    }
+    
+    .nav-bar a:hover{
+    color:white;
+    }
+    .nav-bar a {
+    color:black;
+    }
+   .container h1{
+    margin-top:5px;
+    
+    padding:5%;
+    background-image:linear-gradient(rgb(175, 210, 210),rgb(216, 199, 199));
+
+    height:50%;
+    font-size:40px;
+    text-align:center;
+    color:black;
+    
+   }
+ .container h1 span{
+    color:salmon;
+    font-family:arial;
+    font-size:25px;
+ }
+ .containers{
+    width:800px;
+    margin:50px auto 0;
+    display:table;
+    border-sizing:border-box;
+ }
+ .rows{
+    margin:20px 0;
+ }
+ .columns{
+    
+   
+    width:100%;
+    vertical-align:middle;
+    border-left:10px solid #fff;
+    border-right:10px solid #fff;
+ }
+ .columns h3{
+    color:salmon;
+ }
+ *{
+    margin:0;
+    padding:0;
+
+}
+
+.form-container{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+    padding-bottom: :60px;
+    background:#eee;
+}
+.form-container form{
+    padding:20px;
+    border-radius:15px;
+    box-shadow :0 5px 10px rgba(0,0,0,.1);
+    background:white;
+    text-align:center;
+    width:350px;
+}
+.form-container h1{
+    font-size: 30px;
+    text-transform:uppercase;
+    margin-bottom:10px;
+    color:#333;
+}
+.form-container form input
+{
+    width:100%;
+    padding:10px 1px;
+    font-size:17px;
+    margin:8px 0;
+    background:white;
+
+
+}
+.form-container form p{
+    font-family:Arial;
+}
+.form-container form select option
+{
+    background: white;
+}
+.form-container form .form-btn{
+    background:salmon;
+    color:black;
+    text-transform: capitalize;
+    font-size:20px;
+    color:#333;
+
+}
+.form-container form  a{
+    text-decoration:none;
+    color:blue;
+    background:white;
+}
+.form-container  a:hover{
+    background:rgb(216, 176, 176);
+}
+.form-container form .form-btn:hover{
+    background:#eee;
+    color:black
+
+}
+.form-container form .error-msg{
+    margin:10px 0;
+    dispay:block;
+    background:crimson;
+    color:#fff;
+    border-radius:5px;
+    font-size:20px;
+}
+.wrapper{
+    width:800px;
+    margin:50px auto;
+    display:table;
+    box-sizing:border-box;
+    text-align:center;
+    
+}
+
+.rows{
+    margin:20px 0;
+}
+.columns{
+background:WHITE;
+display:table-cell;
+width:50px;
+text-align:center;
+color:BLACK;
+vertical-align:middle;
+border-left:10px solid #fff;
+border-left:10px solid #fff;
+}
+#eventing h1{
+    text-align:center;
+    margin-left:35%;
+}
