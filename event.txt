@@ -1,0 +1,14 @@
+CREATE TABLE `event management`.`event details` (`Event_id` INT NOT NULL , `event_name` CHAR(50) NULL , 
+`event_date` DATETIME(6) NOT NULL , `organizer_mail` VARCHAR(45) NULL , `organizer_phone` INT NOT NULL ,
+ `event_description` CHAR(45) NOT NULL , `event_type` CHAR(45) NULL , `event_location` CHAR(45) NOT NULL , 
+`event_status` CHAR(45) NOT NULL , `max_seats` INT NULL , PRIMARY KEY (`Event_id`(100))) ENGINE = InnoDB;
+
+INSERT into event details values(1,"musical fest","12-apr-23","musicfest@gmail.com",12345,
+"A weekend to indulge in warm music with amazing artists and lip-smacking food","On-Premise",
+"Mumbai","Live",250);
+
+    
+
+
+
+

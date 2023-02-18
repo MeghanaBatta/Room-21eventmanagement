@@ -1,0 +1,6 @@
+CREATE TABLE `events`.`details` (`booking_id` INT NOT NULL , `event_id` INT NOT NULL , 
+`booked_date` DATE NOT NULL , `participant_name` CHAR(45) NOT NULL , 
+`participant_mail` VARCHAR(45) NOT NULL , `participant_phone` INT NOT NULL , 
+UNIQUE (`booking_id`(10))) ENGINE = InnoDB;
+
+INSERT into details values (1,10,"2-mar-23","shiva","shiva@gmail.com",23897);
